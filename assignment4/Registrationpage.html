@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Registration</title>
+		<meta name="viewport" content="width=device-width", initial_scale="1.0">
+	</head>
+	<body>
+		<table border="0" align="center"width="100%" height="610">
+			<tr>
+				<form>
+					<td align="center">
+						<table border="0" cellpadding="10" cellspacing="10" bgcolor="white" width="50%">
+                            <tr>
+                                <td>
+                                    <h1 align="center" style="color:green;">Registration Form</h1>
+                                </td>
+                            </tr>
+                        </table>
+                        <table  border="0" width="50%" bgcolor="white" cellpadding="10">
+                            <tr>
+                                <td>
+                                   First Name:<br><input type="name" name="FirstName" placeholder="FirstName" size="30" required>
+                                </td>
+                                <td>
+                                   Last Name:<br><input type="name" name="LastName" placeholder="LastName" size="30" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Email:<br><input type="email" name="Email" placeholder="abc@gmail.com" size="30" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Mobile Number:<br><input type="number" name="Mobile No." placeholder="10 Digits number" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Password:<br><input type="password" name="Password" placeholder="Password" size="30" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Confirm Password:<br><input type="password" name="Confirm_Password" placeholder="Confirm Password" size="30" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    DOB:<input type="date" name="Date" value="Date" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Gender:<input type="radio" name="Gender" value="male" required>Male
+                                    <input type="radio" name="Gender" value="female" required>Female
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea name="Address" placeholder="Address" rows="7" cols="40" maxlength="25" required></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Country:<select>
+                                        <option value="Aus">AUSTRALIA</option>
+                                        <option value="Cnd">CANADA</option>
+                                        <option value="Eng">ENGLAND</option>
+                                        <option value="Ind" selected>INDIA</option>
+                                        <option value="Sa">SOUTH AFRICA</option>
+                                        <option value="Usa">AMERICA</option>
+                                        <option value="Ch">CHINA</option>
+                                        <option value="Gm">GERMANY</option>
+                                        <option value="Jp">JAPAN</option>
+                                        <option value="Pak">PAKISTAN</option>
+                                        <option value="Wi">WEST INDIES</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Upload:<input type="file" value="File Upload" accept=".jpg, .png" required>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" bgcolor="white" cellpadding="20" width="50%">
+                            <tr>
+                                <td align="center">
+                                    <input type="checkbox" name="Checkbox" required>I Agree with Terms and Conditions.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <input type="submit" value="Submit">
+                                    <input type="reset" value="Clear">
+                                </td>
+                            </tr>
+                        </table>
+					</td>
+				</form>
+			</tr>
+		</table>
+	</body>
+</html>
