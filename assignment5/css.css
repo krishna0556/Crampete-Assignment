@@ -1,0 +1,291 @@
+.A{
+    border-bottom: 3px solid rgb(12, 238, 12);
+    background-color: black;
+    float: left;
+    min-width: 1200px;
+    width: 100%;
+}
+.A1{
+    color: white;
+    float: left;
+    padding: 5px;
+    padding-left: 180px;
+}
+.A2{
+    color: white;
+    float: right;
+    padding: 5px;
+    padding-right: 150px;
+}
+.clear{
+    clear: both;
+}
+.B{
+    background-color: white;
+    float: left;
+    min-width: 1200px;
+    width: 100%;
+}
+.B1{
+    padding: 15px;
+    float: left;
+    padding-left: 180px;
+}
+.B2{
+    padding: 30px;
+    float: right;
+    padding-right: 150px;
+}
+.B3{
+    background-color:green;
+    color: white;
+    float: left;
+    padding: 10px;
+}
+.B4{
+    background-color: white;
+    color: black;
+    float: right;
+    padding: 10px;
+}
+.clear{
+    clear: both;
+}
+.row{
+    background-color: black;
+    color: white;
+    height: 600px;
+    min-width: 1200px;
+    width: 100%;
+}
+.columns{
+    padding-left: 180px;
+}
+.column{
+    float: left;
+    margin-right: 30px;
+    padding-top: 100px;
+    padding-left: 0;
+    text-align: center;
+    width: 27.33%;
+}
+.C1 h3{
+    background-color: lightgray;
+    color: black;
+    margin: 0;
+    padding: 18px 30px;
+    opacity: 0.50;
+}
+.C2{
+    background-color: white;
+    color: black;
+    opacity: 0.50;
+}
+p{
+    padding: 10px 0;
+    margin: auto;
+}
+.C3 h3{
+    background-color: green;
+    margin: 0;
+    padding: 15px 0;
+    opacity: 0.50;
+}
+.C4 h3{
+    background-color: lightgray;
+    color: black;
+    margin: 0;
+    padding: 18px 35px;
+}
+.C5{
+    background-color: white;
+    color: black;
+}
+p{
+    padding: 10px 0;
+    margin: auto;
+}
+.C6 h3{
+    background-color: green;
+    margin: 0;
+    padding: 15px 0;
+}
+.clear{
+    clear: both;
+}
+.row1{
+    background-color: white;
+    min-width: 1200px;
+    height: 700px;
+    width: 100%;
+}
+.columns1{
+    padding-left: 180px;
+}
+.column1{
+    margin-top: 20px;
+    float: left;
+    padding: 0px;
+    width: 47%;
+}
+.placeholder{
+    background-color: gray;
+    height: 515px;
+    width: 460px;
+}
+.D2{
+    padding-top: 385px;
+}
+.D3, .D4, .button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.50;
+}
+.D3 h2, .D4 p, .button h3{
+    margin: auto;
+    padding: 0 15px;
+}
+.button h3{
+    color: green;
+    border: 2px solid green;
+    width: 120px;
+    padding: 5px;
+}
+.placeholder1{
+    background-color: gray;
+    float: left;
+    height: 120px;
+    margin-right: 20px;
+    width: 120px;
+}
+.D5 h2{
+    font-size: 23px;
+    margin: 0;
+}
+.D6 p{
+    font-size: 10px;
+}
+.button1 h4{
+    border: 2px solid green;
+    color: green;
+    margin-top: 0;
+    margin-left: 140px;
+    padding: 2px;
+    text-align: center;
+    width: 120px;
+}
+.clear{
+    clear: both;
+}
+.row2{
+    background-color: gray;
+    min-width: 1200px;
+    height: 310px;
+    width: 100%;
+}
+.columns2{
+    padding-left: 180px;
+}
+.column2{
+    margin-right: 25px;
+    float: left;
+    margin-top: 10px;
+}
+.placeholder2{
+    background-color: black;
+    float: left;
+    height: 160px;
+    width: 227px
+}
+.E1{
+    background-color: rgb(233, 171, 57);
+    float: left;
+    height: 160px;
+    padding: 0 15px;
+    width: 227px;
+}
+.E1 h2{
+    font-size: 22px;
+}
+.E2{
+    background-color: skyblue;
+    float: left;
+    height: 160px;
+    padding: 0 15px;
+    width: 227px;
+}
+.E2 h2{
+    font-size: 22px;
+}
+.button2 h3{
+    color: white;
+    border: 2px solid green;
+    width: 120px;
+    padding: 4px;
+    font-size: 15px;
+    text-align: center;
+}
+.E3{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+.E4{
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
+.row3{
+    background-color: rgb(29, 26, 26);
+    min-width: 1200px;
+    width: 100%;
+    height: 360px;
+    opacity: 0.90;
+}
+.columns3{
+    padding-left: 180px;
+}
+.column3{
+    color: white;
+    float: left;
+    margin-right: 80px;
+    padding-top: 10px;
+    width: 25.33%;
+}
+.F2{
+    color: green;
+    font-size: 15px;
+}
+.email{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+.submit{
+    background-color: green;
+    padding: 5px 10px;
+    margin:10px 0;
+}
+i{
+    padding: 5px 0;
+}
+.icons{
+    background-color: black;
+    margin-top: 50px;
+    width: 230px;
+}
+i1{
+    border: 0px solid green;
+    padding: 10px;
+}
+.Copyright{
+    background-color: black;
+    margin-top: 20px;
+    padding: 15px 0;
+    padding-left: 180px;
+    color: white;
+}
