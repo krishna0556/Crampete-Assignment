@@ -570,7 +570,7 @@ text{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 900px;
+    height: 1000px;
     min-width: 1200px;
     width: 100%;
     opacity: 0.80;
@@ -601,7 +601,7 @@ text{
 .E2{
     margin: 0 auto;
     text-align: center;
-    width: 43%;
+    width: 44%;
 }
 .E3, .E4, .E5, .E6, .E7{
     float: left;
