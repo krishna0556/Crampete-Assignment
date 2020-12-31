@@ -1284,3 +1284,6 @@ text{
     margin: 0;
     color: white;
 }
+@media only screen and (max-width: 576px){
+    .row, .row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10, .row11, .row12
+}
