@@ -155,14 +155,11 @@ span{
     text-align: center;
     width: 45%;
 }
-.B9, .B10{
-    width: 100%;
-}
 .B9 i{
     background-color: green;
     color: white;
     float: left;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     margin: 2px;
     padding: 13px 18px;
@@ -178,7 +175,7 @@ span{
 .B10 i{
     background-color: gray;
     color: black;
-    font-size: 20px;
+    font-size: 16px;
     float: left;
     text-align: center;
     margin: 2px;
