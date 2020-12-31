@@ -274,6 +274,7 @@ text{
 }
 .appdev1 h1{
     color: black;
+    font-size: 25px;
     padding-top: 30px;
 }
 .appdev1 p{
@@ -474,7 +475,7 @@ text{
     padding: 10px 20px;
 }
 .C2, .C3, .C4, .C5, .C6, .C7{
-    width: 32.33%;
+    width: 33.33%;
     padding: 15px;
     float: left;
 }
