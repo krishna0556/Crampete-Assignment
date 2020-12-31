@@ -159,10 +159,10 @@ span{
     background-color: green;
     color: white;
     float: left;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     margin: 2px;
-    padding: 13px 14px;
+    padding: 13px;
 }
 .B9 a{
     text-decoration: none;
@@ -175,11 +175,11 @@ span{
 .B10 i{
     background-color: gray;
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     float: left;
     text-align: center;
     margin: 2px;
-    padding: 13px 14px;
+    padding: 13px;
 }
 .B10 i:hover, a:hover{
     color: white;
