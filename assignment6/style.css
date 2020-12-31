@@ -278,7 +278,7 @@ text{
 }
 .appdev1 p{
     color: black;
-    font-size: 18px;
+    font-size: 20px;
     padding: 20px 20px 0 20px;
     text-align: center;
 }
@@ -474,7 +474,7 @@ text{
     padding: 10px 20px;
 }
 .C2, .C3, .C4, .C5, .C6, .C7{
-    width: 33.33%;
+    width: 32.33%;
     padding: 15px;
     float: left;
 }
