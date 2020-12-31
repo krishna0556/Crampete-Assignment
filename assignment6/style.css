@@ -153,7 +153,7 @@ span{
     margin: auto;
     padding-top: 60px;
     text-align: center;
-    width: 49%;
+    width: 41%;
 }
 .B9 i{
     background-color: green;
@@ -162,7 +162,7 @@ span{
     font-size: 20px;
     text-align: center;
     margin: 2px;
-    padding: 13px;
+    padding: 13px 18px;
 }
 .B9 a{
     text-decoration: none;
@@ -179,7 +179,7 @@ span{
     float: left;
     text-align: center;
     margin: 2px;
-    padding: 13px;
+    padding: 13px 18px;
 }
 .B10 i:hover, a:hover{
     color: white;
