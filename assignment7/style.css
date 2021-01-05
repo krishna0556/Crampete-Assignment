@@ -1,0 +1,502 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.row{
+    background: url('images/demo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 1200px;
+    width: 100%;
+    height: 800px;
+}
+.A1{
+    background-color: #1298f1;
+    height: 20px;
+    opacity: 0.80;
+}
+.A2{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+.topleft{
+    float: left;
+}
+.topleft1 p{
+    color: white;
+    margin: 0;
+    padding-right: 5px;
+}
+.topleft1 p, i{
+    margin-right: 8px;
+}
+.topleft1{
+    display: flex;
+}
+.topright p{
+    margin: 0;
+}
+.topright p i{
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    font-size: 10px;
+    padding: 2px;
+}
+.topright{
+    float: right;
+}
+.A3{
+    background-color: #2fa3f0;
+    height: 120px;
+    opacity: 0.80;
+}
+.A31{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.logo{
+    float: left;
+    padding-top: 8px;
+}
+.img2{
+    width: 290px;
+    height: 100px;
+}
+.search{
+    float:right;
+}
+.search i{
+    background-color: blue;
+    padding: 7px;
+}
+.search input{
+    padding: 6px 5px 5px 20px;
+}
+::placeholder{
+    color: green;
+    font-size: 17px;
+}
+.A4{
+    background-color: #1298f1;
+    height: auto;
+    opacity: 0.80;
+}
+.A41{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.menu{
+    display: flex;
+}
+.menu p{
+    font-size: 15px;
+    color: white;
+    padding-right: 33px;
+}
+.row1{
+    display: flex;
+    min-width: 1200px;
+    width: 100%;
+}
+.img1{
+    width: 25%;
+}
+.row2{
+    min-width: 1200px;
+    width: 100%;
+    display: flex;
+    opacity: 0.70;
+}
+.A5, .A6{
+    width: 25%;
+    padding: 0 50px;
+}
+.A5{
+    background-color: lightgray;
+}
+.A5 h3, .A6 h3, .A5 p, .A6 p{
+    text-align: center;
+}
+.row3{
+    min-width: 1200px;
+    padding-top: 10px;
+    height: 700px;
+    width: 100%;
+}
+.A7{
+    background-color: #1298f1;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.A7 h3{
+    text-align: center;
+    color: white;
+    padding: 5px 0;
+}
+.A8{
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.img3{
+    height: 250px;
+    width: 261px;
+}
+.A81{
+    float: left;
+    width: 25%;
+}
+.A81 p{
+    color:#1298f1;
+}
+.clear{
+    clear: both;
+}
+.row4{
+    background-color: lightgray;
+    height: auto;
+    min-width: 1200px;
+    width: 100%;
+    padding: 30px 0 50px 0;
+}
+.A9{
+    background-color: #1298f1;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.A9 h3{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+.A10{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 10px 0;
+    text-align: center;
+}
+.A101{
+    width: 33.33%;
+}
+.A1011{
+    background-color: #1298f1;
+}
+.A1011 h2{
+    color: white;
+    padding: 0 30px;
+    text-align: left;
+}
+.A1012{
+    background-color: white;
+}
+.A1012 p{
+    padding: 8px 30px;
+    text-align: left;
+}
+.A1012, .A1011{
+    float: left;
+    width: 100%
+}
+.A102{
+    background: url('images/nurse.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 709px;
+    height: auto;
+}
+.A1021{
+    float: left;
+    background-color: black;
+    padding: 30px;
+    height: auto;
+    width: 50%;
+    opacity: 0.80;
+}
+.A1021 p{
+    padding-top: 20px;
+    color: white;
+    text-align: left;
+}
+.A1021 ul{
+    padding-bottom: 153px;
+    color: white;
+    text-align: left;
+}
+.row5{
+    background: url('images/company.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 1200px;
+    width: 100%;
+    height: 400px;
+}
+.A11{
+    background-color: #408cf0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    padding-top: 100px;
+    opacity: 0.70;
+}
+.A12{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+.A12 p{
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+}
+.A13 button, .A14 button{
+    background-color: #912828;
+    color: #50b0e7;
+    border:none;
+    margin: 10px;
+    font-size: 19px;
+    text-align: center;
+    padding: 15px;
+}
+.A13 button{
+    background-color: #912828;
+    color: #50b0e7;
+    border:none;
+    margin: 10px;
+    font-size: 19px;
+    text-align: center;
+    padding: 15px 34px;
+}
+.center{
+    display: flex;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+.row6{
+    min-width: 1200px;
+    width: 100%;
+}
+.A15{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.A1511 p{
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px 40px 0 0;
+}
+.A151, .A152, .A153, .A154{
+    width: 25%;
+    text-align: left;
+}
+.A151 p, .A152 p, .A153 p, .A154 p{
+    font-size: 20px;
+    color: #3e7bec;
+}
+.A1521 p{
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+    color: #3e7bec;
+    padding-top: 10px;
+}
+#A15111{
+    padding-top: 20px;
+}
+#A15112 i{
+    color: #3e7bec;
+    margin-right: 5px;
+}
+#A15111 i{
+    color: #3e7bec;
+    margin-right: 5px;
+}
+.A1531 p, .A1541 p{
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+    color: #3e7bec;
+    padding-top: 10px;
+}
+.img4{
+    padding-top: 10px;
+    width: 250px;
+    height: 130px;
+}
+.A1512 p{
+    color: #3e7bec;
+    font-size: 25px;
+}
+.A15121 p{
+    text-align: left;
+}
+.A15121 p i{
+    background-color: #3e7bec;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+.A1542{
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+}
+.B1{
+    float: left;
+}
+.img5{
+    height: 30px;
+    margin: 10px 10px 0 0;
+    width: 59px;
+}
+.A15431 p{
+    padding-top: 5px;
+    margin: 0;
+    font-size: 13px;
+}
+.A15432 p{
+    margin: 0;
+    font-size: 23px;
+}
+@media only screen and (max-width: 576px){
+    .topleft, .topright{
+        float:none;
+    }
+    .topleft1{
+        display: inline;
+    }
+    .A1{
+        height: 60px;
+    }
+    .row1{
+        display: inline;
+    }
+    .img1{
+        height: 400px;
+        width: 1200px;
+    }
+    .A3{
+        height: 200px;
+    }
+    .logo, .search{
+        float: none;
+    }
+    .A4{
+        height: 240px;
+    }
+    .menu{
+        display: inline;
+    }
+    .menu p{
+        margin: auto;
+        padding: 5px;
+    }
+    .row2{
+        display: inline;
+    }
+    .A5 .A6, h3{
+        margin: auto;
+    }
+    .A5 p, .A6 p{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+    .A5, .A6{
+        width: 1200px;
+    }
+    .A81{
+        width: 50%;
+    }
+    .A13 button{
+        padding: 10px;
+    }
+    .A14 button{
+        padding: 10px;
+    }
+    .center{
+        display: inline;
+    }
+    .row6{
+        background-color: #3a81ec;
+        height: auto;
+    }
+    .A15{
+        display: inline;
+    }
+    .A151, .A152, .A153, .A154{
+        width:100%;
+        text-align: center;
+    }
+    .A151 p, .A152 p, .A153 p, .A154 p{
+        padding: 10px 0;
+        margin: 0;
+        color: black;
+        font-size: 25px;
+    }
+    .A1511 p{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        margin: 0;
+        padding: 10px 40px 0 0;
+    }
+    .A15121 p{
+        color: white;
+        text-align: center;
+    }
+    .A1521 p, .A1531 p{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+    }
+    .A1541 p{
+        color: #3e7bec;
+        margin: auto;
+        width: 60%;
+        text-align: center;
+        font-size: 25px;
+    }
+    .A1542{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    .B1{
+        float: none;
+        display: inline;
+    }
+    .A15431 p{
+        color: #3e7bec;
+        font-size: 13px;
+    }
+    .A15432 p{
+        color: #3e7bec;
+        font-size: 26px;
+    }
+    .A154{
+        background-color: white;
+        height: auto;
+    }
+}
