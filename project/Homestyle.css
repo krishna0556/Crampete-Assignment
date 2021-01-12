@@ -5,44 +5,33 @@ body{
     margin: 0;
     padding: 0;
 }
-.logo{
-    width: 120px;
-    height: 50px;
+img{
+    max-width: 100%;
 }
-.A1{
-    margin: auto;
-    text-align: left;
+.logo{
+    width: 300px;
+    height: 50px;
 }
 .A1 i{
     font-size: 30px;
+    margin-top: 8px;
+}
+.A1{
+    padding: 10px 0;
 }
 .A2{
-    margin: auto;
+    padding: 10px 0;
     text-align: center;
 }
 .A3{
-    margin: auto;
+    padding: 10px 0;
     text-align: right;
 }
-.button{
-    border: 1px solid green;
+.A3 button{
     background-color: white;
-    padding:  5px 15px;
-}
-.A3 button i{
-    font-size: 15px;
-}
-.A3 button i span{
-    font-size: 12px;
-}
-.A1{
-    padding: 15px 0;
-}
-.A3{
-    padding: 12px 0;
-}
-.A2{
-    padding: 5px 0;
+    max-width: 100%;
+    border: 2px solid green;
+    padding: 12px;
 }
 .img{
     background-image: url('images/b1.jpg');
@@ -50,70 +39,51 @@ body{
     background-position: center;
     background-size: cover;
     width: 100%;
-}
-.A4{
-    padding-top: 180px;
+    max-width: 100%;
+    padding: 200px 0;
 }
 .A4 p{
-    color: white;
     font-size: 25px;
+    color: white;
+    letter-spacing: 5px;
 }
 .A5 p{
-    color: white;
     font-size: 50px;
+    color: white;
+    word-spacing: 5px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+}
+.A6{
+    padding-top: 10px;
 }
 .A6 button{
     border: none;
     background-color: #38e938;
-    padding: 8px 20px;
-}
-.A6{
-    padding-bottom: 150px;
-}
-.A7, .A8, .A9{
-    padding-top: 30px;
-}
-.A71, .A81, .A91{
-    padding-bottom: 30px;
+    padding: 8px 30px;
+    color: white;
 }
 .A7 i{
     background-image: url('images/singlebag.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: gray;
     border-radius: 50%;
     color: white;
     border: 2px solid green;
     padding: 50px;
     font-size: 30px;
-}
-.A7, .A71{
-    margin: auto;
-    text-align: right;
-}
-.A71 p{
-    padding-right: 30px;
-}
-.A8, .A81{
-    margin: auto;
-    text-align: center;
 }
 .A8 i{
     background-image: url('images/multibag.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: gray;
     border-radius: 50%;
     color: white;
     border: 2px solid green;
     padding: 50px;
     font-size: 30px;
-}
-.A9, .A91{
-    margin: auto;
-    text-align: left;
 }
 .A9 i{
     background-image: url('images/tourbus.jpg');
@@ -121,26 +91,33 @@ body{
     background-position: center;
     background-size: cover;
     border-radius: 50%;
+    color: white;
     border: 2px solid green;
     padding: 50px;
     font-size: 30px;
-    color: white;
 }
-.A91 p{
-    padding-left: 10px;
+.A7, .A71{
+    text-align: right;
+}
+.A8, .A81{
+    text-align: center;
+}
+.A7, .A8, .A9{
+    padding-top: 30px;
+}
+.A71, .A81, .A91{
+    padding-bottom: 30px;
+}
+.A71 p{
+    padding-right: 15px;
 }
 .img1{
     background-image: url('images/sky.jpg');
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    width: 100%;
+    background-position: center;
+    max-width: 100%;
     padding: 100px 0;
-}
-.A10{
-    position: relative;
-    padding-top: 55px;
-    margin-right: -100px;
 }
 .A11{
     background-color: white;
@@ -148,36 +125,63 @@ body{
 .A12 p{
     font-size: 44px;
     line-height: 1;
-    padding-left: 30px;
     color: green;
-}
-.A13 p, .A14 p{
-    padding-left: 30px;
-    padding-right: 10px;
-    line-height: 1;
-}
-.A15 button{
-    border: none;
-    background-color: #5bcc5b;
-    color: white;
-    padding: 5px 10px;
 }
 .A15{
     text-align: right;
 }
+.A15 button{
+    border: none;
+    background-color: #65eb65;
+    color: white;
+    padding: 10px;
+}
 .elephant{
-    width: 680px;
+    width: 100%;
     height: 400px;
 }
-@media only screen and (max-width: 576px){
-    .A10{
+.A10{
+    padding-top: 40px;
+}
+.A11{
+    padding-top: 20px;
+    position: relative;
+    margin-right: -100px;
+}
+.A12 p, .A13 p, .A14 p{
+    padding: 0 40px 0 45px;
+}
+@media only screen and (max-width: 768px){
+    .A1{
+        text-align: right;
+    }
+    .logo{
+        width: 450px;
+        height: 100px;
+    }
+    .A3{
+        text-align: center;
+    }
+    .A6{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .A7, .A71{
+        text-align: center;
+    }
+    .A9, .A91{
+        text-align: center;
+    }
+    .A71 p{
+        padding-right: 0;
+    }
+    .A7, .A8, .A9{
+        padding-top: 10px;
+    }
+    .A71, .A81, .A91{
+        padding-bottom: 0;
+    }
+    .A11{
         margin-right: 0;
-    }
-    .elephant{
-        width: 525px;
-        height: auto;
-    }
-    .A4 p{
-        color: green;
     }
 }
