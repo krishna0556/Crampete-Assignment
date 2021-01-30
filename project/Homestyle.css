@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.logo{
+    width: 300px;
+    height: 50px;
+}
+.A1 i{
+    font-size: 30px;
+    margin-top: 8px;
+}
+.A1{
+    padding: 10px 0;
+}
+.A2{
+    padding: 10px 0;
+    text-align: center;
+}
+.A3{
+    padding: 10px 0;
+    text-align: right;
+}
+.A3 button{
+    background-color: white;
+    max-width: 100%;
+    border: 2px solid green;
+    padding: 12px;
+}
+.img{
+    background-image: url('images/b1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    padding: 200px 0;
+}
+.A4 p{
+    font-size: 25px;
+    color: white;
+    letter-spacing: 5px;
+}
+.A5 p{
+    font-size: 50px;
+    color: white;
+    word-spacing: 5px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+}
+.A6{
+    padding-top: 10px;
+}
+.A6 button{
+    border: none;
+    background-color: #38e938;
+    padding: 8px 30px;
+    color: white;
+}
+.A7 i{
+    background-image: url('images/singlebag.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid green;
+    padding: 50px;
+    font-size: 30px;
+}
+.A8 i{
+    background-image: url('images/multibag.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid green;
+    padding: 50px;
+    font-size: 30px;
+}
+.A9 i{
+    background-image: url('images/tourbus.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid green;
+    padding: 50px;
+    font-size: 30px;
+}
+.A7, .A71{
+    text-align: right;
+}
+.A8, .A81{
+    text-align: center;
+}
+.A7, .A8, .A9{
+    padding-top: 30px;
+}
+.A71, .A81, .A91{
+    padding-bottom: 30px;
+}
+.A71 p{
+    padding-right: 15px;
+}
+.A91 p a{
+    text-decoration: none;
+    color: black;
+}
+.img1{
+    background-image: url('images/sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    padding: 100px 0;
+}
+.A11{
+    background-color: white;
+}
+.A12 p{
+    font-size: 44px;
+    line-height: 1;
+    color: green;
+}
+.A15{
+    text-align: right;
+}
+.A15 button{
+    border: none;
+    background-color: #65eb65;
+    color: white;
+    padding: 10px;
+}
+.elephant{
+    width: 100%;
+    height: 400px;
+}
+.A10{
+    padding-top: 40px;
+}
+.A11{
+    padding-top: 20px;
+    position: relative;
+    margin-right: -100px;
+}
+.A12 p, .A13 p, .A14 p{
+    padding: 0 40px 0 45px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 15px;
+    padding: 20px;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.gallery__item--5 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 11;
+}
+.gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.gallery__item--7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 11;
+}
+.gallery__item--8 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 11;
+}
+.galleryitem-1{
+    position: relative;
+}
+.bottom-left-1{
+    position: absolute;
+    bottom: 50px;
+    left: 32px;
+    color: white;
+    font-weight: 900;
+}
+.bottom-left-1 button{
+    background-color: #27b127;
+    border: none;
+    padding: 10px 20px;
+}
+.galleryitem-2{
+    position: relative;
+}
+.bottom-left-2{
+    position: absolute;
+    bottom: 50px;
+    left: 32px;
+}
+.bottom-left-2 button{
+    background-color: #27b127;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+.bottom-left-2 p{
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.coconut{
+    background-image: url('images/coconut.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 200px 0;
+}
+.bg-secondary{
+    opacity: 0.8;
+    font-weight: 900;
+}
+.A16{
+    background-color: #3bac3b;
+}
+.A17{
+    width: 30%;
+    height: auto;
+}
+.A18{
+    background-color: #3bac3b;
+}
+.A19{
+    background-color: hsl(120, 50%, 10%);
+}
+@media only screen and (max-width: 768px){
+    .A1{
+        text-align: right;
+    }
+    .logo{
+        width: 450px;
+        height: 100px;
+    }
+    .A3{
+        text-align: center;
+    }
+    .A6{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .A7, .A71{
+        text-align: center;
+    }
+    .A9, .A91{
+        text-align: center;
+    }
+    .A71 p{
+        padding-right: 0;
+    }
+    .A7, .A8, .A9{
+        padding-top: 10px;
+    }
+    .A71, .A81, .A91{
+        padding-bottom: 0;
+    }
+    .A11{
+        margin-right: 0;
+    }
+    .gallery{
+        display: inline;
+    }
+    .gallery__img{
+        margin-bottom: 10px;
+    }
+    .A20, .A21{
+        text-align: center;
+    }
+}

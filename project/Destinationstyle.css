@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.logo{
+    width: 300px;
+    height: 50px;
+}
+.A1 i{
+    font-size: 30px;
+    margin-top: 8px;
+}
+.A1{
+    padding: 10px 0;
+}
+.A2{
+    padding: 10px 0;
+    text-align: center;
+}
+.A3{
+    padding: 10px 0;
+    text-align: right;
+}
+.A3 button{
+    background-color: white;
+    max-width: 100%;
+    border: 2px solid green;
+    padding: 12px;
+}
+.img{
+    background-image: url('images/twofaces.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    padding: 100px 0;
+}
+.A5{
+    padding: 0 240px;
+}
+.A4{
+    text-align: center;
+}
+.A6{
+    padding-top: 140px;
+}
+.A7{
+    padding: 20px 14px;
+}
+.img2{
+    background-image: url('images/boat2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    padding: 200px 0;
+}
+.A8{
+    text-align: center;
+}
+.A9{
+    padding: 0 200px;
+}
+.img3{
+    background-image: url('images/sky1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    padding: 100px 0;
+}
+.A11{
+    background-color: white;
+}
+.A12 p{
+    font-size: 35px;
+    line-height: 1;
+    color: green;
+}
+.A15{
+    text-align: right;
+}
+.A15 button{
+    border: none;
+    background-color: #65eb65;
+    color: white;
+    padding: 10px;
+}
+.beach{
+    width: 100%;
+    height: 400px;
+}
+.A10{
+    padding-top: 50px;
+}
+.A11{
+    padding-top: 20px;
+    position: relative;
+    margin-right: -100px;
+}
+.A12 p, .A13 p, .A14 p{
+    padding: 0 40px 0 45px;
+}
+.A16{
+    background-color: #3bac3b;
+}
+.A17{
+    background-color: hsl(120, 50%, 10%);
+}
+@media only screen and (max-width: 768px){
+    .A1{
+        text-align: right;
+    }
+    .logo{
+        width: 450px;
+        height: 100px;
+    }
+    .A3{
+        text-align: center;
+    }
+    .A5{
+        padding: 0;
+    }
+    .img1{
+        margin-bottom: 5px;
+    }
+    .A9{
+        padding: 0;
+    }
+    .A10{
+        margin-bottom: 10px;
+    }
+    .A11{
+        margin-right: 0;
+    }
+    .A20, .A21{
+        text-align: center;
+    }
+}

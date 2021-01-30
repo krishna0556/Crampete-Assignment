@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.logo{
+    width: 300px;
+    height: 50px;
+}
+.A1 i{
+    font-size: 30px;
+    margin-top: 8px;
+}
+.A1{
+    padding: 10px 0;
+}
+.A2{
+    padding: 10px 0;
+    text-align: center;
+}
+.A3{
+    padding: 10px 0;
+    text-align: right;
+}
+.A3 button{
+    background-color: white;
+    max-width: 100%;
+    border: 2px solid green;
+    padding: 12px;
+}
+.img{
+    background-image: url('images/boat3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    padding: 100px 0;
+}
+.A4{
+    padding: 0 180px;
+}
+.A5{
+    background-color: rgb(38, 214, 38);
+    margin: 12px;
+}
+.A6{
+    background-color: rgb(15, 39, 15);
+    margin: 12px;
+}
+.A5 p, .A6 p{
+    padding: 10px 30px 0 30px;
+}
+.img1{
+    background-image: url('images/paradise.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    padding: 100px 0;
+}
+.A7{
+    text-align: center;
+    padding: 20px 0;
+}
+.A8{
+    opacity: 0.8;
+    position: relative;
+    margin-bottom: -20px;
+}
+.A9{
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+.A11{
+    text-align: center;
+}
+.A12{
+    background-color: rgb(63, 221, 63);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    position: relative;
+}
+.A13{
+    line-height: 0;
+}
+.A14{
+    color: green;
+    float: left;
+    margin-right: 10px;
+}
+.A15{
+    float: left;
+    margin-right: 10px;
+    font-size: 23px;
+}
+.A16{
+    background-color: green;
+    border-radius: 50%;
+    border: 1px solid green;
+    font-size: 23px;
+    padding: 5px;
+}
+.A17{
+    line-height: 0;
+}
+.A18{
+    color: green;
+    float: left;
+    margin-right: 10px;
+}
+.A19{
+    border-radius: 50%;
+    border: 1px solid green;
+    width: 140px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+.A20{
+    background-color: #20b920;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+}
+.A23{
+    background-color: #3bac3b;
+}
+.A24{
+    background-color: hsl(120, 50%, 10%);
+}
+@media only screen and (max-width: 768px){
+    .A1{
+        text-align: right;
+    }
+    .logo{
+        width: 450px;
+        height: 100px;
+    } 
+    .A3{
+        text-align: center;
+    }
+    .A4{
+        padding: 0;
+    }
+    .A8{
+        margin-bottom: 15px;
+    }
+    .A21{
+        margin: auto;
+        text-align: center;
+    }
+    .A22, .A25{
+        text-align: center;
+    }
+}

@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.logo{
+    width: 300px;
+    height: 50px;
+}
+.A1 i{
+    font-size: 30px;
+    margin-top: 8px;
+}
+.A1{
+    padding: 10px 0;
+}
+.A2{
+    padding: 10px 0;
+    text-align: center;
+}
+.A3{
+    padding: 10px 0;
+    text-align: right;
+}
+.A3 button{
+    background-color: white;
+    max-width: 100%;
+    border: 2px solid green;
+    padding: 12px;
+}
+.img1{
+    background-image: url('images/b1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.A4{
+    background-color: #34c734;
+    border: none;
+    padding: 5px 10px;
+}
+.A5{
+    text-align: center;
+}
+.A6{
+    padding: 0 200px;
+}
+.A7{
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    padding: 30%;
+}
+.A8{
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+}
+.A9{
+    font-size: 60px;
+}
+.A10{
+    font-size: 60px;
+    position: absolute;
+    right: 30%;
+    top: 40%;
+}
+.A11{
+    border-radius: 50%;
+    background-color:green;
+    text-align: center;
+    position: relative;
+    padding: 30%;
+}
+.A12{
+    width: 560px;
+    height: 310px;
+}
+.A15{
+    font-size: 16px;
+    float: right;
+    margin-top: -40px;
+}
+.A14{
+    font-size: 12px;
+}
+.A16{
+    font-size: 15px;
+}
+.A13{
+    background-color: #3aaf3a; 
+    border: none; 
+    margin-top: -50px; 
+    color: white; 
+    padding: 3px 20px; 
+    float: right;
+    position: relative;
+}
+.A17{
+    background-color: #44ce44;
+    border: none;
+    padding: 5px 15px;
+    text-align: center;
+    color: white;
+}
+.A18{
+    text-align: center;
+    padding: 30px 0;
+}
+.A19{
+    float: right;
+}
+.A20{
+    position: relative;
+}
+.A21{
+    width: 410px;
+    height: 550px;
+}
+.A22{
+    bottom: 50px;
+    color: white;
+    left: 30px;
+    position: absolute;
+    font-weight: 900;
+}
+.A23{
+    background-color: #032203;
+}
+@media only screen and (max-width: 768px){
+    .A1{
+        text-align: right;
+    }
+    .logo{
+        width: 450px;
+        height: 100px;
+    }
+    .A3{
+        text-align: center;
+    }
+    .A6{
+        padding: 0;
+    }
+    .A13{
+        float: none;
+        margin-top: 0;
+    }
+    .A15{
+        float: none;
+        margin-top: 0;
+    }
+    .A19{
+        float: none;
+    }
+    .A24{
+        text-align: center;
+    }
+    .A21{
+        margin-bottom: 15px;
+    }
+}
