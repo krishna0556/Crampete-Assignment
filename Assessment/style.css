@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+.img{
+    background-image: url('lake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-width: 1200px;
+    padding: 200px 0;
+}
+.A{
+    text-align: center;
+    color: white;
+}
+b{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(136, 14, 81);
+}
+.A h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.A h6{
+    font-size: 15px;
+    font-weight: 900;
+}
+.A button{
+    background-color: rgb(136, 14, 81);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.B{
+    color:  rgb(136, 14, 81);
+    font-weight: 900;
+    padding-left: 50px;
+    display: flex;
+}
+@media only screen and (max-width: 576px){
+    .img{
+        padding: 100px 0;
+    }
+    .A h1{
+        padding: 0 40px;
+    }
+}
