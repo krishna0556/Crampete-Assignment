@@ -1,0 +1,85 @@
+.headerSection{
+    background-color: dodgerblue;
+    padding: 7px 0;
+}
+.center{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 102px;
+}
+::placeholder{
+    text-indent: 10px;
+}
+.searchbox{
+    padding: 4px 0;
+    border: none;
+}
+.search{
+    position: relative;
+}
+.fa-search{
+    position: absolute;
+    left: 94%;
+    top: 25%;
+}
+.login{
+    background-color: white;
+    border: none;
+    padding: 0 25px;
+}
+.login a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.droplink {
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.fa-chevron-down{
+    color: white; 
+    font-size: 10px; 
+    padding-left: 5px;
+}
+.dropdown {
+    padding: 5px 0 0 20px;
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.cart{
+    padding: 5px 0 0 28px;
+}
+.fa-shopping-cart{
+    color: white;
+}
+
+
+
+
+
+
